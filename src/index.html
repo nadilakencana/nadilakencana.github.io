@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadila Pilar Kencana</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.0/dist/cdn.min.js" defer></script>
+
+</head>
+
+<body class="">
+    <section class="relative w-screen h-screen overflow-hidden">
+        <img src="./public/img/bg2.jpg" alt="" class="object-cover w-screen h-screen grayscale">
+        <!-- section hero -->
+        <div class="card inset-0 p-9 top-10 max-h-[60%] h-[39%]">
+            <div class="hero-card"></div>
+            <div class="body-card">
+                <p class="text-3xl font-bold text-white">Nadila Pilar Kencana</p>
+                <p class="text-white text-[25px]">Software Engineer</p>
+                <div class="flex flex-col py-3 space-y-2">
+                    <div class="flex space-x-4">
+                        <img src="./public/img/WhatsApp.png" alt="" class="w-[35px]">
+                        <p class="text-xl text-white">pilarkencana17@gamil.com</p>
+                    </div>
+                    <div class="flex space-x-4">
+                        <img src="./public/img/GitHub.png" alt="" class="w-[35px]">
+                        <a class="text-xl text-white"
+                            href="https://github.com/nadilakencana">github.com/nadilakencana</a>
+                    </div>
+                </div>
+
+                <button class="w-full p-4 text-xl text-center text-white shadow-lg bg-primary rounded-xl">
+                    My Resume
+                </button>
+
+                <!-- animate scroll skill -->
+                <div class="py-4">
+                    <p class="text-4xl font-bold text-white">Teck Stack & Skill</p>
+                    <div x-data="{}" x-init="$nextTick(() => {
+                                let ul = $refs.logos;
+                                ul.insertAdjacentHTML('afterend', ul.outerHTML);
+                                ul.nextSibling.setAttribute('aria-hidden', 'true');
+                            })"
+                        class="w-full py-4 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+                        <ul x-ref="logos"
+                            class="flex items-center justify-center md:justify-start [&_li]:mx-3 [&_img]:max-w-none animate-infinite-scroll">
+                            <li>
+                                <div class="item">
+                                    <img src="./public/img/html-5 1.png" alt=""
+                                        class="object-cover w-[80px] h-[88px] bg-center">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <img src="./public/img/css-3 1.png" alt=""
+                                        class="object-cover w-[80px] h-[88px] bg-center">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <img src="./public/img/jquery.png" alt=""
+                                        class="object-cover w-[80px] h-[88px] bg-center">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <img src="./public/img/php 1.png" alt=""
+                                        class="object-cover w-[80px] h-[88px] bg-center">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <img src="./public/img/laravel.png" alt=""
+                                        class="object-cover w-[80px] h-[88px] bg-center">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+
+                                    <img src="./public/img/js (1).png" alt=""
+                                        class="object-cover w-[80px] h-[88px] bg-center">
+
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <img src="./public/img/figma.png" alt=""
+                                        class="object-cover w-[80px] h-[88px] bg-center">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <img src="./public/img/boostrap.png" alt=""
+                                        class="object-cover w-[80px] h-[88px] bg-center">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <img src="./public/img/git.png" alt=""
+                                        class="object-cover w-[80px] h-[88px] bg-center">
+                                </div>
+                            </li>
+                        </ul>
+                       
+                    </div>
+
+                </div>
+                <!-- end skill -->
+            </div>
+        </div>
+        <!-- end section hero -->
+
+        <!-- section main -->
+        <div class="card p-9 top-[44rem] inset-0 h-auto">
+            <div class="hero-card"></div>
+            <div class="body-card">
+                <div class="absolute flex flex-row navbar -top-8 -left-1">
+                    <div target-panel="about"
+                        class="px-4 py-3 text-xl font-bold text-white active tab rounded-br-xl rounded-tl-xl bg-primary">
+                        About
+                    </div>
+                    <div target-panel="work"
+                        class="px-4 py-3 text-xl font-bold text-white tab rounded-br-xl rounded-tl-xl bg-primary">
+                        Work Experients
+                    </div>
+                    <div target-panel="portfolio"
+                        class="px-4 py-3 text-xl font-bold text-white tab rounded-br-xl rounded-tl-xl bg-primary">
+                        Portfolio
+                    </div>
+                </div>
+                <div class="relative w-full pannel">
+                    <div class="flex flex-col hidden pannel-page" data-panel="about">
+                        <div class="">
+                            <h1 class="mb-4 text-3xl font-bold text-white">Software Engineer at Griya Fortuna
+                                International </h1>
+                            <p class="py-4 text-3xl text-white">I'm from Indonesia, I have more than 3 years of work
+                                experience,
+                                and currently I work in a company as a web developer,
+                                analyzing systems to be built, and doing development.
+                            </p>
+                        </div>
+                        <div class="flex justify-end w-full translate-x-[26%]">
+                            <img src="./public/img/profile.png" alt="" class="object-cover w-full h-full">
+                        </div>
+                    </div>
+                    <div class="flex flex-col hidden pannel-page" data-panel="work">
+                        <div class="">
+                            <h1 class="mb-4 text-3xl font-bold text-white">Work Experience</h1>
+                            <div class="flex flex-col items-start pt-3 space-y-8">
+                                <!-- Griya Fortuna Internasional -->
+                                <div class="relative pl-8">
+                                    <div class="absolute top-0 left-0 w-4 h-4 rounded-full bg-primary"></div>
+                                    <div class="absolute w-1 h-20 bg-white top-[25%] left-[2%]"></div>
+                                    <h3 class="text-xl font-bold text-white sm:text-2xl">Griya Fortuna Internasional
+                                    </h3>
+                                    <p class="text-base font-medium text-white sm:text-xl">Web Developer</p>
+                                    <p class="text-base text-white">Desember 2021 - Present</p>
+                                </div>
+
+                                <!-- Kelastambahan.id -->
+                                <div class="relative pl-8">
+                                    <div class="absolute top-0 left-0 w-4 h-4 rounded-full bg-primary"></div>
+                                    <div class="absolute w-1 h-20 bg-white top-[25%] left-[2%]"></div>
+                                    <h3 class="text-xl font-bold text-white sm:text-2xl">Kelastambahan.id</h3>
+                                    <p class="text-base font-medium text-white sm:text-xl">Product Manager & Coach</p>
+                                    <p class="text-base text-white">Juli 2023 - Present</p>
+                                </div>
+
+                                <!-- HIMTI UMT -->
+                                <div class="relative pl-8">
+                                    <div class="absolute top-0 left-0 w-4 h-4 rounded-full bg-primary"></div>
+                                    <div class="absolute w-1 h-20 bg-white top-[25%] left-[2%]"></div>
+                                    <h3 class="text-xl font-bold text-white sm:text-2xl">HIMTI UMT</h3>
+                                    <p class="text-base font-medium text-white sm:text-xl">Training Specialist & Junior
+                                        Web
+                                        Developer</p>
+                                    <p class="text-base text-white">Desember 2020 - Desember 2021</p>
+                                </div>
+
+                                <!-- KEMENKO PMK -->
+                                <div class="relative pl-8">
+                                    <div class="absolute top-0 left-0 w-4 h-4 rounded-full bg-primary"></div>
+                                    <h3 class="text-xl font-bold text-white sm:text-2xl">KEMENKO PMK</h3>
+                                    <p class="text-base font-medium text-white sm:text-xl">Freelance Web Developer</p>
+                                    <p class="text-base text-white">Oktober 2021</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div
+                            class="flex justify-end w-full translate-x-[26%] translate-y-[-21%] sm:translate-x-[69%] sm:w-[70%]">
+                            <img src="./public/img/profile.png" alt="" class="object-cover w-full h-full">
+                        </div>
+                    </div>
+                    <div class="flex flex-col pannel-page" data-panel="portfolio">
+                        <div class="">
+                            <h1 class="pb-4 mb-4 text-3xl font-bold text-white">My Portfolio</h1>
+                            <div class="inline-flex w-full py-4 overflow-hidden flex-nowrap ">
+                                <ul class="flex items-center justify-center md:justify-start [&_li]:mx-3 [&_img]:max-w-none animate-infinite-scroll">
+                                    <li>
+                                        <div class="flex flex-col w-[429px]">
+                                            <div class="w-full overflow-hidden h-80 rounded-xl">
+                                                <img src="./public/img/image.png" alt=""
+                                                    class="object-cover w-full h-full bg-center">
+                                            </div>
+                                            <div class="flex flex-col items-center justify-center py-4 space-y-4">
+                                                <p class="text-2xl font-bold text-white">Company Profile</p>
+                                                <a href="" class="text-base text-white">Gfdesainkreasi.com</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex flex-col  w-[429px]">
+                                            <div class="w-full overflow-hidden h-80 rounded-xl">
+                                                <img src="./public/img/image.png" alt=""
+                                                    class="object-cover w-full h-full bg-center">
+                                            </div>
+                                            <div class="flex flex-col items-center justify-center py-4 space-y-4">
+                                                <p class="text-2xl font-bold text-white">Company Profile</p>
+                                                <a href="" class="text-base text-white">Gfdesainkreasi.com</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex flex-col  w-[429px]">
+                                            <div class="w-full overflow-hidden h-80 rounded-xl">
+                                                <img src="./public/img/image.png" alt=""
+                                                    class="object-cover w-full h-full bg-center">
+                                            </div>
+                                            <div class="flex flex-col items-center justify-center py-4 space-y-4">
+                                                <p class="text-2xl font-bold text-white">Company Profile</p>
+                                                <a href="" class="text-base text-white">Gfdesainkreasi.com</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex flex-col  w-[429px]">
+                                            <div class="w-full overflow-hidden h-80 rounded-xl">
+                                                <img src="./public/img/image.png" alt=""
+                                                    class="object-cover w-full h-full bg-center">
+                                            </div>
+                                            <div class="flex flex-col items-center justify-center py-4 space-y-4">
+                                                <p class="text-2xl font-bold text-white">Company Profile</p>
+                                                <a href="" class="text-base text-white">Gfdesainkreasi.com</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="flex justify-end w-[82%] translate-x-[51%] translate-y-[-7%]">
+                            <img src="./public/img/profile.png" alt="" class="object-cover w-full h-full">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end section main -->
+    </section>
+
+
+    <script>
+        document.querySelectorAll('.navbar .tab').forEach(tab => {
+            tab.addEventListener('click', function (e) {
+                const target = this.getAttribute('target-panel');
+
+                // Remove 'active' class from all tabs
+                document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+
+                // Add 'active' class to the clicked tab
+                this.classList.add('active');
+
+                // Hide all panels
+                document.querySelectorAll('.pannel-page').forEach(panel => panel.style.display = 'none');
+
+                // Show the target panel
+                const targetPanel = document.querySelector(`.pannel-page[data-panel="${target}"]`);
+                if (targetPanel) {
+                    targetPanel.style.display = 'block';
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
