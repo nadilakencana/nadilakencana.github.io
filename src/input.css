@@ -6,7 +6,7 @@
   @apply  absolute  flex    justify-center z-10;
 }
 .body-card{
-    @apply absolute inset-0 z-20 p-9 m-9 space-y-2;
+    @apply absolute inset-0 z-20 p-4 m-5 space-y-1;
 }
 .hero-card{
     @apply bg-opacity-30 relative overflow-hidden  rounded-xl w-full shadow-lg;
@@ -28,7 +28,7 @@
 
 .item{
 	
-   @apply snap-center bg-white rounded-full w-[122px] h-[122px]	items-center flex justify-center;
+   @apply snap-center bg-white rounded-full w-[48px] h-[48px]	items-center flex justify-center;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
