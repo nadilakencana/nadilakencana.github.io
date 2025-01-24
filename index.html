@@ -17,16 +17,16 @@
         <div class="card inset-0 p-5 top-2 max-h-[60%] h-[35%]">
             <div class="hero-card"></div>
             <div class="body-card">
-                <p class="text-xl font-bold text-white">Nadila Pilar Kencana</p>
-                <p class="m-0 text-[14px] text-white">Software Engineer</p>
+                <p class="text-2xl font-bold text-white">Nadila Pilar Kencana</p>
+                <p class="m-0 text-[16px] text-white">Software Engineer</p>
                 <div class="flex flex-col space-y-2">
                     <div class="flex space-x-3">
                         <img src="./src/public/img/WhatsApp.png" alt="" class="w-[20px]">
-                        <p class="text-[12px] text-white text-">pilarkencana17@gamil.com</p>
+                        <p class="text-[13px] text-white text-">pilarkencana17@gamil.com</p>
                     </div>
                     <div class="flex space-x-4">
                         <img src="./src/public/img/GitHub.png" alt="" class="w-[20px]">
-                        <a class="text-[12px] text-white"
+                        <a class="text-[13px] text-white"
                             href="https://github.com/nadilakencana">github.com/nadilakencana</a>
                     </div>
                 </div>
@@ -119,36 +119,36 @@
             <div class="body-card">
                 <div class="absolute flex flex-row navbar -top-4 -left-1">
                     <div target-panel="about"
-                        class="px-2 py-2 text-base font-bold text-white active tab rounded-br-xl rounded-tl-xl bg-primary">
+                        class="px-2 py-2 text-base font-bold text-white cursor-pointer active tab rounded-br-xl rounded-tl-xl bg-primary">
                         About
                     </div>
                     <div target-panel="work"
-                        class="px-2 py-2 text-base font-bold text-white tab rounded-br-xl rounded-tl-xl bg-primary">
+                        class="px-2 py-2 text-base font-bold text-white cursor-pointer tab rounded-br-xl rounded-tl-xl bg-primary">
                         Work Experients
                     </div>
                     <div target-panel="portfolio"
-                        class="px-2 py-2 text-base font-bold text-white tab rounded-br-xl rounded-tl-xl bg-primary">
+                        class="px-2 py-2 text-base font-bold text-white cursor-pointer tab rounded-br-xl rounded-tl-xl bg-primary">
                         Portfolio
                     </div>
                 </div>
                 <div class="relative w-full pannel">
                     <div class="flex flex-col pannel-page" data-panel="about">
                         <div class="pt-2">
-                            <h1 class="mb-2 text-base font-bold text-white">Software Engineer at Griya Fortuna
+                            <h1 class="mb-2 text-2xl font-bold text-white">Software Engineer at Griya Fortuna
                                 International </h1>
-                            <p class="w-[57%] py-2 text-sm text-white">I'm from Indonesia, I have more than 3 years of work
+                            <p class="text-xl text-white w-[70%] py-2 ">I'm from Indonesia, I have more than 3 years of work
                                 experience,
                                 and currently I work in a company as a web developer,
                                 analyzing systems to be built, and doing development.
                             </p>
                         </div>
-                        <div class="flex justify-end w-[70%] translate-x-[69%] -translate-y-[74%]">
+                        <div class="flex justify-end w-[70%] translate-x-[69%] -translate-y-10">
                             <img src="./src/public/img/profile.png" alt="" class="object-cover w-full h-full">
                         </div>
                     </div>
                     <div class="flex flex-col hidden pannel-page" data-panel="work">
-                        <div class="">
-                            <h1 class="mb-4 text-3xl font-bold text-white">Work Experience</h1>
+                        <div class="pt-3">
+                            <h1 class="mb-4 text-2xl font-bold text-white">Work Experience</h1>
                             <div class="flex flex-col items-start pt-3 space-y-8">
                                 <!-- Griya Fortuna Internasional -->
                                 <div class="relative pl-8">
@@ -174,7 +174,7 @@
                                     <div class="absolute top-0 left-0 w-4 h-4 rounded-full bg-primary"></div>
                                     <div class="absolute w-1 h-20 bg-white top-[25%] left-[2%]"></div>
                                     <h3 class="text-xl font-bold text-white sm:text-2xl">HIMTI UMT</h3>
-                                    <p class="text-base font-medium text-white sm:text-xl">Training Specialist & Junior
+                                    <p class="text-base font-medium text-white sm:text-xl w-[70%]">Training Specialist & Junior
                                         Web
                                         Developer</p>
                                     <p class="text-base text-white">Desember 2020 - Desember 2021</p>
@@ -191,59 +191,63 @@
 
                         </div>
                         <div
-                            class="flex justify-end w-full translate-x-[26%] translate-y-[-21%] sm:translate-x-[69%] sm:w-[70%]">
+                            class="flex justify-end w-[65%] translate-x-[82%] translate-y-[-74%] sm:translate-x-[69%] sm:w-[70%]">
                             <img src="./src/public/img/profile.png" alt="" class="object-cover w-full h-full">
                         </div>
                     </div>
                     <div class="flex flex-col hidden pannel-page" data-panel="portfolio">
-                        <div class="">
-                            <h1 class="pb-4 mb-4 text-3xl font-bold text-white">My Portfolio</h1>
-                            <div class="inline-flex w-full py-4 overflow-hidden flex-nowrap ">
-                                <ul class="flex items-center justify-center md:justify-start [&_li]:mx-3 [&_img]:max-w-none animate-infinite-scroll">
+                        <div class="pt-3">
+                            <h1 class="pb-4 mb-4 text-2xl font-bold text-white">My Portfolio</h1>
+                            <div x-data="{}" x-init="$nextTick(() => {
+                                let ul = $refs.project;
+                                ul.insertAdjacentHTML('afterend', ul.outerHTML);
+                                ul.nextSibling.setAttribute('aria-hidden', 'true');
+                            })" class="inline-flex w-full py-4 overflow-hidden flex-nowrap ">
+                                <ul x-ref="project" class="flex items-center justify-center md:justify-start [&_li]:mx-3 [&_img]:max-w-none animate-infinite-scroll">
                                     <li>
-                                        <div class="flex flex-col w-[429px]">
-                                            <div class="w-full overflow-hidden h-80 rounded-xl">
+                                        <div class="list-project">
+                                            <div class="project">
                                                 <img src="./src/public/img/image.png" alt=""
                                                     class="object-cover w-full h-full bg-center">
                                             </div>
-                                            <div class="flex flex-col items-center justify-center py-4 space-y-4">
-                                                <p class="text-2xl font-bold text-white">Company Profile</p>
+                                            <div class="flex flex-col items-center justify-center py-1 space-y-2">
+                                                <p class="text-xl font-bold text-white">Company Profile</p>
                                                 <a href="" class="text-base text-white">Gfdesainkreasi.com</a>
                                             </div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="flex flex-col  w-[429px]">
-                                            <div class="w-full overflow-hidden h-80 rounded-xl">
+                                        <div class="list-project">
+                                            <div class="project">
                                                 <img src="./src/public/img/image.png" alt=""
                                                     class="object-cover w-full h-full bg-center">
                                             </div>
-                                            <div class="flex flex-col items-center justify-center py-4 space-y-4">
-                                                <p class="text-2xl font-bold text-white">Company Profile</p>
+                                            <div class="flex flex-col items-center justify-center py-1 space-y-2">
+                                                <p class="text-xl font-bold text-white">Company Profile</p>
                                                 <a href="" class="text-base text-white">Gfdesainkreasi.com</a>
                                             </div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="flex flex-col  w-[429px]">
-                                            <div class="w-full overflow-hidden h-80 rounded-xl">
+                                        <div class="list-project">
+                                            <div class="project">
                                                 <img src="./src/public/img/image.png" alt=""
                                                     class="object-cover w-full h-full bg-center">
                                             </div>
-                                            <div class="flex flex-col items-center justify-center py-4 space-y-4">
-                                                <p class="text-2xl font-bold text-white">Company Profile</p>
+                                            <div class="flex flex-col items-center justify-center py-1 space-y-2">
+                                                <p class="text-xl font-bold text-white">Company Profile</p>
                                                 <a href="" class="text-base text-white">Gfdesainkreasi.com</a>
                                             </div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="flex flex-col  w-[429px]">
-                                            <div class="w-full overflow-hidden h-80 rounded-xl">
+                                        <div class="list-project">
+                                            <div class="project">
                                                 <img src="./src/public/img/image.png" alt=""
                                                     class="object-cover w-full h-full bg-center">
                                             </div>
-                                            <div class="flex flex-col items-center justify-center py-4 space-y-4">
-                                                <p class="text-2xl font-bold text-white">Company Profile</p>
+                                            <div class="flex flex-col items-center justify-center py-1 space-y-2">
+                                                <p class="text-xl font-bold text-white">Company Profile</p>
                                                 <a href="" class="text-base text-white">Gfdesainkreasi.com</a>
                                             </div>
                                         </div>
@@ -253,7 +257,7 @@
 
                             </div>
                         </div>
-                        <div class="flex justify-end w-[82%] translate-x-[51%] translate-y-[-7%]">
+                        <div class="flex justify-end w-[63%] translate-x-[79%] translate-y-[-12%]">
                             <img src="./src/public/img/profile.png" alt="" class="object-cover w-full h-full">
                         </div>
                     </div>

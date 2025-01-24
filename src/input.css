@@ -34,4 +34,9 @@
 ::-webkit-scrollbar {
   @apply hidden
 }
-
+.list-project{
+  @apply flex flex-col w-[248px] h-[212px] justify-center items-center
+}
+.project{
+  @apply w-[79%] overflow-hidden h-[12rem] rounded-xl
+}
