@@ -610,6 +610,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -656,6 +660,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[20\%\] {
+  height: 20%;
 }
 
 .max-h-\[60\%\] {
@@ -851,6 +859,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-2 {
