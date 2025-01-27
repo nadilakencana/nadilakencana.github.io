@@ -28,7 +28,7 @@
 
 .item{
 	
-   @apply snap-center bg-white rounded-full w-[48px] h-[48px]	items-center flex justify-center;
+   @apply snap-center bg-white rounded-full w-[50px] h-[50px]	items-center flex justify-center;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
