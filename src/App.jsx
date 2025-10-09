@@ -20,6 +20,11 @@ export default function App() {
     >
       <Header name={portfolioData.name} />
       
+      <div className="text-center py-20">
+        <h1 className="text-6xl font-bold text-red-500">FILE UPDATED SUCCESSFULLY!</h1>
+        <p className="text-2xl text-yellow-400 mt-4">If you see this, the hot reload is working</p>
+      </div>
+      
       <main>
         <Hero 
           name={portfolioData.name}
@@ -38,7 +43,7 @@ export default function App() {
         
         <Projects projects={portfolioData.projects} />
         
-        <Certifications certifications={portfolioData.certifications} />
+        <Certifications />
         
         <Skills 
           skills={portfolioData.skills}
