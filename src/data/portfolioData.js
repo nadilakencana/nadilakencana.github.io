@@ -86,25 +86,41 @@ export const portfolioData = {
   ],
   designTools: ["Figma"],
   certifications: [
-      {
-          name: "Code Generation and Optimization Using IBM Granite",
-          issuer: "IBM Skillbuild X Hacktiv8",
-          date: "August 2025"
-      },
-      {
-          name: "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
-          issuer: "Dicoding Indonesia",
-          date: "November 2024"
-      },
-      {
-          name: "Belajar Membuat Aplikasi Back-End untuk Pemula",
-          issuer: "Dicoding Indonesia",
-          date: "September 2024"
-      },
-      {
-          name: "Belajar Dasar Pemrograman JavaScript",
-          issuer: "Dicoding Indonesia",
-          date: "August 2022"
-      }
+    {
+      name: "Code Generation and Optimization Using IBM Granite",
+      img_url: "/images/ibm_sertif.png",
+      issuer: "IBM Skillbuild X Hacktiv8",
+      date: "August 2025"
+    },
+    {
+      name: "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+      img_url: "/images/dicoding_aws.png",
+      issuer: "Dicoding Indonesia",
+      date: "November 2024"
+    },
+    {
+      name: "Belajar Membuat Aplikasi Back-End untuk Pemula",
+      img_url: "/images/Backend_dasar.png",
+      issuer: "Dicoding Indonesia",
+      date: "September 2024"
+    },
+    {
+      name: "Belajar Dasar Pemrograman JavaScript",
+      img_url: "/images/web_dasar.png",
+      issuer: "Dicoding Indonesia",
+      date: "August 2022"
+    },
+    {
+      name: "Belajar Fundamental Front-End Web Development",
+      img_url: "/images/frontEnd_web.png",
+      issuer: "Dicoding Indonesia",
+      date: "August 2022"
+    },
+    {
+      name: "Belajar PWA (Progressive Web App)",
+      img_url: "/images/PWA.png",
+      issuer: "Dicoding Indonesia",
+      date: "August 2022"
+    }
   ]
 };

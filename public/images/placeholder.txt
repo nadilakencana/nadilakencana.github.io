@@ -1,0 +1,7 @@
+Add these certificate images to this folder:
+- ibm_sertif.png
+- dicoding_aws.png
+- Backend_dasar.png
+- web_dasar.png
+- fronEnd_web.png
+- PWA.png

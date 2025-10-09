@@ -1,15 +1,18 @@
 import React from 'react';
 import Section from './Section';
+import { portfolioData } from '../data/portfolioData';
 
-const Certifications = ({ certifications }) => {
+const Certifications = () => {
   return (
-    <Section id="certifications" title="Certifications">
-      <div className="grid gap-8 md:grid-cols-2">
-        {certifications.map((cert, index) => (
-          <div key={index} className="p-6 transition-all duration-300 border rounded-lg shadow-lg bg-gradient-to-br from-blue-800/40 to-slate-800/60 border-sky-500/20 hover:border-blue-400/40">
-            <h3 className="text-lg font-bold text-white">{cert.name}</h3>
-            <p className="text-blue-400">{cert.issuer}</p>
-            <p className="mt-1 text-sm text-slate-500">{cert.date}</p>
+    <Section id="certifications" title="TEST - CERTIFICATIONS UPDATED">
+      <div className="text-red-500 text-2xl font-bold">
+        HELLO WORLD - FILE HAS BEEN UPDATED!
+      </div>
+      <div className="space-y-4 mt-8">
+        {portfolioData.certifications.map((cert, index) => (
+          <div key={index} className="p-4 bg-red-500 rounded border text-white">
+            <h3 className="font-bold">#{index + 1} - {cert.name}</h3>
+            <p>{cert.issuer} - {cert.date}</p>
           </div>
         ))}
       </div>
