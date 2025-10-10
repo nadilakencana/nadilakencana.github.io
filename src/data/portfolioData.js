@@ -56,13 +56,13 @@ export const portfolioData = {
     }
   ],
   projects: [
-    {
-      title: "Chat AI",
-      img_url: "/images/Ai_coffe.png",
-      description: "An AI chat application using Laravel for the backend and Gemini API. The frontend is built with React.js and Tailwind CSS. Features user authentication and chat history.",
-      repo_backend: "https://github.com/nadilakencana/chat-ai-gemini-laravel",
-      repo_frontend: "https://github.com/nadilakencana/chat-ai-react"
-    },
+    // {
+    //   title: "Chat AI",
+    //   img_url: "/images/Ai_coffe.png",
+    //   description: "An AI chat application using Laravel for the backend and Gemini API. The frontend is built with React.js and Tailwind CSS. Features user authentication and chat history.",
+    //   repo_backend: "https://github.com/nadilakencana/chat-ai-gemini-laravel",
+    //   repo_frontend: "https://github.com/nadilakencana/chat-ai-react"
+    // },
     {
       title: "Coffee Shop with AI",
       img_url: "/images/Ai_coffe.png",
@@ -73,10 +73,34 @@ export const portfolioData = {
     },
     {
       title: "Asset Management System",
-      img_url: "/images/Ai_coffe.png",
+      img_url: "/images/Asset.png",
       description: "Thesis project: A web-based asset management system with straight-line depreciation method and QR code identification for PT. Griya Fortuna Internasional.",
       repo_backend: "https://github.com/nadilakencana/SistemManagementAsset.git"
-    }
+    },
+    {
+      title: "Gfdesainkreasi.com",
+      img_url: "/images/Deka.png",
+      description: "Thesis project: A web-based asset management system with straight-line depreciation method and QR code identification for PT. Griya Fortuna Internasional.",
+      repo_backend: "gfdesainkreasi.com"
+    },
+    {
+      title: "Gf-Internasional.com",
+      img_url: "/images/GFI.png",
+      description: "Thesis project: A web-based asset management system with straight-line depreciation method and QR code identification for PT. Griya Fortuna Internasional.",
+      repo_backend: "gf-internasional.com"
+    },
+    {
+      title: "Point of Sales (POS) System Coffe Shop",
+      img_url: "/images/POS.png",
+      description: "Thesis project: A web-based asset management system with straight-line depreciation method and QR code identification for PT. Griya Fortuna Internasional.",
+      repo_backend: ""
+    },
+    {
+      title: "Donation Website PecintaAnakYatim",
+      img_url: "/images/payDoit.png",
+      description: "Thesis project: A web-based asset management system with straight-line depreciation method and QR code identification for PT. Griya Fortuna Internasional.",
+      repo_backend: "https://donasi.pecintaanakyatim.org/"
+    },
   ],
   education: {
     institution: "Universitas Muhammadiyah Tangerang",
