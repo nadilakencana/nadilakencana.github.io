@@ -4,15 +4,20 @@ import { portfolioData } from '../data/portfolioData';
 
 const Certifications = () => {
   return (
-    <Section id="certifications" title="TEST - CERTIFICATIONS UPDATED">
-      <div className="text-red-500 text-2xl font-bold">
-        HELLO WORLD - FILE HAS BEEN UPDATED!
-      </div>
-      <div className="space-y-4 mt-8">
+    <Section id="certifications" title="Certifications">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {portfolioData.certifications.map((cert, index) => (
-          <div key={index} className="p-4 bg-red-500 rounded border text-white">
-            <h3 className="font-bold">#{index + 1} - {cert.name}</h3>
-            <p>{cert.issuer} - {cert.date}</p>
+          <div key={index} className="p-6 transition-colors border rounded-lg bg-slate-800/50 backdrop-blur-sm border-slate-700 hover:border-blue-500">
+            <div className="mb-4">
+              <img 
+                src={cert.img_url} 
+                alt={cert.name}
+                className="object-contain w-full h-32 rounded-lg"
+              />
+            </div>
+            <h3 className="mb-2 text-lg font-semibold text-slate-200">{cert.name}</h3>
+            <p className="mb-1 font-medium text-blue-400">{cert.issuer}</p>
+            <p className="text-sm text-slate-400">{cert.date}</p>
           </div>
         ))}
       </div>

@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 export default function App() {
+  console.log('APP COMPONENT LOADED - HOT RELOAD TEST');
   return (
     <div 
       className="min-h-screen font-sans leading-relaxed text-slate-200"
@@ -19,11 +20,6 @@ export default function App() {
       }}
     >
       <Header name={portfolioData.name} />
-      
-      <div className="text-center py-20">
-        <h1 className="text-6xl font-bold text-red-500">FILE UPDATED SUCCESSFULLY!</h1>
-        <p className="text-2xl text-yellow-400 mt-4">If you see this, the hot reload is working</p>
-      </div>
       
       <main>
         <Hero 

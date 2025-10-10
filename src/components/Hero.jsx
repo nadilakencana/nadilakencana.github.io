@@ -23,10 +23,10 @@ const Hero = ({ name, title, summary, imageUrl, contact }) => {
         
         {/* Kolom Kiri: Teks & Tombol */}
         <div className="flex flex-col items-center max-w-xl text-center md:items-start md:text-left">
-          <p className="mb-2 text-xl font-bold text-slate-300">I am {name}</p>
+          <p className="mb-2 text-xl font-bold text-white">I am {name}</p>
           <h1 className="mb-4 text-5xl font-bold leading-tight text-transparent md:text-6xl lg:text-7xl bg-gradient-to-r from-blue-600 to-sky-200 bg-clip-text">
               Next-Level Web <br />
-              Developer.
+              Developer t
           </h1>
           <p className="mb-8 leading-relaxed text-slate-400">
             {summary}
