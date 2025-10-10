@@ -58,12 +58,14 @@ export const portfolioData = {
   projects: [
     {
       title: "Chat AI",
+      img_url: "/images/Ai_coffe.png",
       description: "An AI chat application using Laravel for the backend and Gemini API. The frontend is built with React.js and Tailwind CSS. Features user authentication and chat history.",
       repo_backend: "https://github.com/nadilakencana/chat-ai-gemini-laravel",
       repo_frontend: "https://github.com/nadilakencana/chat-ai-react"
     },
     {
       title: "Coffee Shop with AI",
+      img_url: "/images/Ai_coffe.png",
       description: "A coffee shop website built with Express.js (backend) and React.js (frontend), enhanced with IBM Granite for a better user experience. Deployed on Firebase.",
       repo_backend: "https://github.com/nadilakencana/backend-coffee-shop",
       repo_frontend: "https://github.com/nadilakencana/coffee-shop-ibm",
@@ -71,6 +73,7 @@ export const portfolioData = {
     },
     {
       title: "Asset Management System",
+      img_url: "/images/Ai_coffe.png",
       description: "Thesis project: A web-based asset management system with straight-line depreciation method and QR code identification for PT. Griya Fortuna Internasional.",
       repo_backend: "https://github.com/nadilakencana/SistemManagementAsset.git"
     }
