@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --repo https://github.com/nadilakencana/nadilakencana.github.io.git"
   },
   "dependencies": {
     "react": "^18.2.0",
