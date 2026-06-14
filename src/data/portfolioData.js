@@ -13,9 +13,19 @@ export const portfolioData = {
   },
   experience: [
     {
+      role: "Software Engineer",
+      company: "PT Hana Fashion Indonesia",
+      period: "December 2025 - Present",
+      description: [
+        "Analyzed complex manufacturing business processes and systematically implemented them into the core ERP system, aligning operational workflows with automated software solutions.",
+        "Architected and developed robust APIs using Nest.js and React.js, successfully integrating custom AL Language logic from Microsoft Dynamics 365 to bridge enterprise data and streamline administrative workflows.",
+        "Designed scalable database structures and endpoints to support real-time manufacturing tracking, reducing manual process bottlenecks and improving cross-departmental efficiency.",
+      ]
+    },
+    {
       role: "Course Instructor",
       company: "Kelastambahan.id",
-      period: "July 2023 - Present",
+      period: "July 2023 - July 2025",
       description: [
         "Spearheaded the development of learning programs at a company specializing in programmatic education.",
         "Organized educational events and workshops to enhance learning experiences for participants.",
@@ -26,7 +36,7 @@ export const portfolioData = {
     {
       role: "Web Developer",
       company: "PT. Griya Fortuna Internasional",
-      period: "December 2021 - Present",
+      period: "December 2021 - November 2025",
       description: [
         "Designed and developed various systems, including ERP, asset management, e-commerce, marketplace, and Point of Sales (POS) systems.",
         "Ensured optimal performance through regular maintenance and system optimization across all developed platforms.",
@@ -109,7 +119,7 @@ export const portfolioData = {
   },
   skills: [
     "Laravel", "MySQL", "jQuery", "Node.js", "Bootstrap", "Tailwind CSS",
-    "React", "PostgreSQL", "Express.js"
+    "React", "PostgreSQL", "Express.js", "Firebase", "Nest.js", "Microsoft Dynamics 365 AL Language"
   ],
   designTools: ["Figma"],
   certifications: [
