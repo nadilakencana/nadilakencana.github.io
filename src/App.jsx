@@ -21,7 +21,7 @@ export default function App() {
     >
       <Header name={portfolioData.name} />
       
-      <main>
+      <main className="pt-16">
         <Hero 
           name={portfolioData.name}
           title={portfolioData.title}
