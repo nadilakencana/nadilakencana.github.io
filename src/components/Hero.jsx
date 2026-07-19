@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import cvUrl from '../assets/Nadila pilar Kencana CV.pdf';
+import cvUrl from '../assets/Nadila pilar Kencana.pdf';
 
 const TYPING_LINES = ['Next-Level Web', 'Developer'];
 
