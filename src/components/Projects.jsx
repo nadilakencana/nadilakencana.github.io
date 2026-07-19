@@ -1,6 +1,9 @@
 import React from 'react';
 import Section from './Section';
 
+const toAbsolute = (url) =>
+  url && !url.startsWith('http') ? `https://${url}` : url;
+
 const Projects = ({ projects }) => {
   return (
     <Section id="projects" title="Projects">
@@ -19,9 +22,9 @@ const Projects = ({ projects }) => {
               {/* <p className="flex-grow text-slate-300">{project.description}</p> */}
             </div>
             <div className="p-6 mt-auto bg-blue-900/30">
-              {project.repo_frontend && <a href={project.repo_frontend} target="_blank" rel="noopener noreferrer" className="mr-4 font-semibold text-sky-400 hover:text-blue-300">Frontend Repo</a>}
-              {project.repo_backend && <a href={project.repo_backend} target="_blank" rel="noopener noreferrer" className="mr-4 font-semibold text-sky-400 hover:text-blue-300">Backend Repo</a>}
-              {project.live_link && <a href={project.live_link} target="_blank" rel="noopener noreferrer" className="font-semibold text-sky-400 hover:text-blue-300">Live Site</a>}
+              {project.repo_frontend && <a href={toAbsolute(project.repo_frontend)} target="_blank" rel="noopener noreferrer" className="mr-4 font-semibold text-sky-400 hover:text-blue-300">Frontend Repo</a>}
+              {project.repo_backend && <a href={toAbsolute(project.repo_backend)} target="_blank" rel="noopener noreferrer" className="mr-4 font-semibold text-sky-400 hover:text-blue-300">Backend Repo</a>}
+              {project.live_link && <a href={toAbsolute(project.live_link)} target="_blank" rel="noopener noreferrer" className="font-semibold text-sky-400 hover:text-blue-300">Live Site</a>}
             </div>
           </div>
         ))}

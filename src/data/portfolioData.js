@@ -91,13 +91,13 @@ export const portfolioData = {
       title: "Gfdesainkreasi.com",
       img_url: "/images/Deka.png",
       description: "Thesis project: A web-based asset management system with straight-line depreciation method and QR code identification for PT. Griya Fortuna Internasional.",
-      live_link: "gfdesainkreasi.com"
+      live_link: "https://gfdesainkreasi.com"
     },
     {
       title: "Gf-Internasional.com",
       img_url: "/images/GFI.png",
       description: "Thesis project: A web-based asset management system with straight-line depreciation method and QR code identification for PT. Griya Fortuna Internasional.",
-      live_link: "gf-internasional.com"
+      live_link: "https://gf-internasional.com"
     },
     {
       title: "Point of Sales (POS) System Coffe Shop",
