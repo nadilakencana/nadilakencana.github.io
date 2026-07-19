@@ -111,6 +111,12 @@ export const portfolioData = {
       description: "Thesis project: A web-based asset management system with straight-line depreciation method and QR code identification for PT. Griya Fortuna Internasional.",
       live_link: "https://donasi.pecintaanakyatim.org/"
     },
+    {
+      title: "Kebuli yaman",
+      img_url: "/images/kebuliYaman.jpeg",
+      description: "Thesis project: Project company profile for one of the most popular Middle Eastern restaurants .",
+      live_link: "https://kebuliyaman.com/"
+    },
   ],
   education: {
     institution: "Universitas Muhammadiyah Tangerang",
