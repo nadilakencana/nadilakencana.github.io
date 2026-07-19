@@ -47,8 +47,8 @@ export const portfolioData = {
     },
     {
       role: "Freelance Web Developer",
-      company: "pecintaanakyatim.com",
-      period: "June 2025",
+      company: ["pecintaanakyatim.com","kebuliyaman.com"],
+      period: [ "June 2025", "September 2025"],
       description: [
         "Redesigned the UI for a donation website and fixed bugs in several features.",
         "Utilized Laravel, Bootstrap, CSS, and JavaScript to implement custom UI/UX elements."
