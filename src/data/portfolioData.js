@@ -1,9 +1,9 @@
 export const portfolioData = {
   name: "Nadila Pilar Kencana",
   imageUrl: "/images/nadila_profile.jpg", // Put your image in public/images/
-  title: "Web Developer",
+  title: "Software Engineer",
   location: "Kota Tangerang, Banten, Indonesia",
-  summary: "Web Developer with 3+ years of experience building ERP, POS, e-commerce, and asset management systems using Laravel and modern web technologies. I work closely with clients to create efficient, tailored solutions. I'm also passionate about tech education, organizing learning programs and events at Kelastambahan.id to support aspiring developers.",
+  summary: "I am a Software Engineer with over 3 years of experience building retail and manufacturing systems (ERP, POS, e-commerce). I am proficient in the Laravel, Nest.js, React.js, and SQL ecosystems. In addition to focusing on developing efficient systems and integrating AI-based technologies, I also dedicate my time to teaching programming at Kelastambahan.id. I’m always open to new challenges and collaborations.",
   contact: {
     email: "nadilakencana1107@gmail.com",
     phone: "088294649082",
@@ -124,10 +124,23 @@ export const portfolioData = {
     period: "2019 - 2023",
   },
   skills: [
-    "Laravel", "MySQL", "jQuery", "Node.js", "Bootstrap", "Tailwind CSS",
-    "React", "PostgreSQL", "Express.js", "Firebase", "Nest.js", "Microsoft Dynamics 365 AL Language"
+    {
+      category: "Backend",
+      items: ["Laravel (Up to v12)", "Nest.js", "Express JS", "Node.js", "AL Language"]
+    },
+    {
+      category: "Frontend",
+      items: ["React.js", "JavaScript", "Tailwind CSS", "Bootstrap", "jQuery"]
+    },
+    {
+      category: "Database & Tools",
+      items: ["PostgreSQL", "MySQL", "Figma", "Git & GitHub"]
+    },
+    {
+      category: "AI & Cloud Integration",
+      items: ["Gemini API", "IBM Granite", "AWS Cloud"]
+    }
   ],
-  designTools: ["Figma"],
   certifications: [
     {
       name: "Code Generation and Optimization Using IBM Granite",

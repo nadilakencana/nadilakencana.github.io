@@ -41,10 +41,7 @@ export default function App() {
         
         <Certifications />
         
-        <Skills 
-          skills={portfolioData.skills}
-          designTools={portfolioData.designTools}
-        />
+        <Skills skills={portfolioData.skills} />
         
         <Contact contact={portfolioData.contact} />
       </main>
