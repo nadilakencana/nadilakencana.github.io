@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from './Section';
-import { FaServer, FaCode, FaDatabase, FaCloud } from 'react-icons/fa';
+import { FaServer, FaCode, FaDatabase, FaCloud, FaTasks, FaPaintBrush, FaProjectDiagram } from 'react-icons/fa';
 
 const SkillPill = ({ skill }) => (
   <span className="inline-block px-3 py-1.5 text-sm font-semibold text-white transition-all duration-300 rounded-full bg-gradient-to-r from-blue-800 to-sky-600 hover:scale-105 hover:from-blue-600 hover:to-sky-500 hover:shadow-lg hover:shadow-sky-500/25">
@@ -9,10 +9,13 @@ const SkillPill = ({ skill }) => (
 );
 
 const categoryIcons = {
+  "Project & Delivery Management": <FaTasks />,
   "Backend":               <FaServer />,
   "Frontend":              <FaCode />,
   "Database & Tools":      <FaDatabase />,
   "AI & Cloud Integration":<FaCloud />,
+  "Design Tools":          <FaPaintBrush />,
+  "Project Tools":         <FaProjectDiagram />,
 };
 
 const Skills = ({ skills }) => {

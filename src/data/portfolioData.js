@@ -1,9 +1,9 @@
 export const portfolioData = {
   name: "Nadila Pilar Kencana",
   imageUrl: "/images/nadila_profile.jpg", // Put your image in public/images/
-  title: "Software Engineer",
+  title: "Software Engineer & Associate Project Lead | Technical Project Management",
   location: "Kota Tangerang, Banten, Indonesia",
-  summary: "I am a Software Engineer with over 3 years of experience building retail and manufacturing systems (ERP, POS, e-commerce). I am proficient in the Laravel, Nest.js, React.js, and SQL ecosystems. In addition to focusing on developing efficient systems and integrating AI-based technologies, I also dedicate my time to teaching programming at Kelastambahan.id. I’m always open to new challenges and collaborations.",
+  summary: "I am a Software Engineer and Associate Project Lead with over 3 years of experience building ERP, POS, and e-commerce systems for retail and manufacturing. I combine hands-on technical architecture in Laravel, Nest.js, React.js, and SQL with project coordination  requirements gathering, vendor alignment, sprint tracking, UAT, and stakeholder reporting. I also dedicate my time to teaching programming at Kelastambahan.id. I’m always open to new challenges and collaborations.",
   contact: {
     email: "nadilakencana1107@gmail.com",
     phone: "088294649082",
@@ -13,13 +13,16 @@ export const portfolioData = {
   },
   experience: [
     {
-      role: "Software Engineer",
+      role: "Software Engineer & ERP Project PIC",
       company: "PT Hana Fashion Indonesia",
       period: "December 2025 - Present",
       description: [
+        "Advanced to ERP Project PIC after 7 months, coordinating stakeholders and vendors for the ERP implementation.",
         "Analyzed complex manufacturing business processes and systematically implemented them into the core ERP system, aligning operational workflows with automated software solutions.",
         "Architected and developed robust APIs using Nest.js and React.js, successfully integrating custom AL Language logic from Microsoft Dynamics 365 to bridge enterprise data and streamline administrative workflows.",
         "Designed scalable database structures and endpoints to support real-time manufacturing tracking, reducing manual process bottlenecks and improving cross-departmental efficiency.",
+        "Led module rollouts and user training sessions with iterative feedback loops to ensure smooth adoption.",
+        "Authored progress reports tracking deliverables, timelines, and risk mitigation for stakeholders.",
       ]
     },
     {
@@ -34,7 +37,7 @@ export const portfolioData = {
       ]
     },
     {
-      role: "Web Developer",
+      role: "Full Stack Web Developer & Project Lead",
       company: "PT. Griya Fortuna Internasional",
       period: "December 2021 - November 2025",
       description: [
@@ -63,6 +66,14 @@ export const portfolioData = {
         "Developed content and web appearance.",
         "Provided training for web beginners with the Laravel Framework."
       ]
+    },
+    {
+      role: "Freelance Web Developer",
+      company: "Kemenko PMK",
+      period: "October 2021",
+      description: [
+        "Established a consistent visual theme and formatting across the website to improve brand consistency and user experience."
+      ]
     }
   ],
   projects: [
@@ -77,9 +88,9 @@ export const portfolioData = {
       title: "Coffee Shop with AI",
       img_url: "/images/Ai_coffe.png",
       description: "A coffee shop website built with Express.js (backend) and React.js (frontend), enhanced with IBM Granite for a better user experience. Deployed on Firebase.",
-      repo_backend: "https://github.com/nadilakencana/backend-coffee-shop",
-      repo_frontend: "https://github.com/nadilakencana/coffee-shop-ibm",
-      live_link: "https://kopi-kita-401303.web.app/"
+      repo_backend: "https://github.com/nadilakencana/coffe-shop-backend",
+      repo_frontend: "https://github.com/nadilakencana/coffee-shop-frontend",
+      live_link: "https://coffee-shop-4cb9a.web.app/"
     },
     {
       title: "Asset Management System",
@@ -125,6 +136,10 @@ export const portfolioData = {
   },
   skills: [
     {
+      category: "Project & Delivery Management",
+      items: ["Requirement Elicitation & Scoping", "User Interviewing", "Stakeholder & Vendor Management", "User Acceptance Testing (UAT)", "Sprint Milestone Tracking", "Technical Reporting", "Agile"]
+    },
+    {
       category: "Backend",
       items: ["Laravel (Up to v12)", "Nest.js", "Express JS", "Node.js", "AL Language"]
     },
@@ -134,11 +149,19 @@ export const portfolioData = {
     },
     {
       category: "Database & Tools",
-      items: ["PostgreSQL", "MySQL", "Figma", "Git & GitHub"]
+      items: ["PostgreSQL", "MySQL", "Git & GitHub"]
     },
     {
       category: "AI & Cloud Integration",
       items: ["Gemini API", "IBM Granite", "AWS Cloud"]
+    },
+    {
+      category: "Design Tools",
+      items: ["Figma"]
+    },
+    {
+      category: "Project Tools",
+      items: ["Trello", "ClickUp", "Miro"]
     }
   ],
   certifications: [

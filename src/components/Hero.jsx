@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import cvUrl from '../assets/Nadila pilar Kencana.pdf';
 
-const TYPING_LINES = ['Next-Level', 'Software Engineer'];
+const TYPING_LINES = ['Software Engineer', '& Project Lead'];
 
 const Hero = ({ name, title, summary, imageUrl, contact }) => {
   const [typedLines, setTypedLines] = useState(['', '']);
